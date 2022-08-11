@@ -1,0 +1,61 @@
+/* Write your CSS code here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cardContainer {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 5px;
+  padding: 30px;
+}
+.inputFormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.labelStyle {
+  font-family: 'roboto';
+  font-size: 10px;
+  font-weight: 500;
+}
+.inputStyle {
+  border-radius: 3px;
+  padding: 5px;
+  border-color: #9aa5b1;
+  border-width: 1px;
+  outline-color: #ff0b37;
+  margin: 5px 0px 0px 0px;
+}
+button {
+  background-color: #ea580c;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 3px;
+  padding: 5px;
+  width: 100px;
+  margin-top: 20px;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.SuccessContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.submitBtn {
+  width: 200px;
+}
+.errorMessage {
+  margin: 0px;
+  color: red;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
